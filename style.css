@@ -28,3 +28,20 @@ ul,ol{
      margin-top: 20px;
 }
 
+.log_in_form{
+  width: 400px;
+  padding: 30px;
+  background-color: bisque;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+h2{
+     text-align: center;
+     text-transform: capitalize;
+     color: rgba(3, 67, 3, 0.699);
+}
+.username{
+     margin-top: 15px;
+     text-transform: capitalize;
+}
+
