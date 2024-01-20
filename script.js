@@ -47,7 +47,24 @@ btn.addEventListener("click",function() {
           password.style.border = "1px dashed red"
      } else{
           resultthree.innerHTML = ""
+          password.style.border = ""
      }
+     
+     // ====cfnpssword input ====
+     if(cfnpssword.value == ""){
+          resultfour.innerHTML = "pleas input your confirm password"
+          cfnpssword.style.border = "1px dashed red"
+
+     }else if(password.value == cfnpssword.value){
+          resultfour.innerHTML = " match password"
+          cfnpssword.style.border = ""
+     }
+     
+     else{
+          resultfour.innerHTML = " dont match your password"
+          cfnpssword.style.border = ""
+     }
+
 
      
 })
