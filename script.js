@@ -57,6 +57,7 @@ btn.addEventListener("click",function() {
 
      }else if(password.value == cfnpssword.value){
           resultfour.innerHTML = " match password"
+          resultfour.style.color = "green"
           cfnpssword.style.border = ""
      }
      
